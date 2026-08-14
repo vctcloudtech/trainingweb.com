@@ -2,8 +2,8 @@ public class LoginService {
 
     public boolean login(String username, String password) {
 
-        String validUsername = "admin";
-        String validPassword = "admin123";
+        String validUsername = "administrator";
+        String validPassword = "ASDasd123";
 
         if (username == null || password == null) {
             return false;
